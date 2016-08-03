@@ -1,0 +1,3 @@
+# XMTableViewAdapter
+TableView Adapter
+快速实现UITableViewDelegate and UITableViewDataSource
