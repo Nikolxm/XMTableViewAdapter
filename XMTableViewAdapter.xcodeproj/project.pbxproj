@@ -13,7 +13,13 @@
 		191901961D508E2E00466AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191901951D508E2E00466AD4 /* Assets.xcassets */; };
 		191901991D508E2E00466AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191901971D508E2E00466AD4 /* LaunchScreen.storyboard */; };
 		191901A21D50925100466AD4 /* XMTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191901A11D50925100466AD4 /* XMTableViewAdapter.swift */; };
-		191901A81D509A7600466AD4 /* XMTableViewAdapterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191901A71D509A7600466AD4 /* XMTableViewAdapterDelegate.swift */; };
+		19673B441D519CB90079BBA5 /* XMResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19673B431D519CB90079BBA5 /* XMResponseModel.swift */; };
+		19673B471D51A8740079BBA5 /* XMTableViewAdapterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19673B461D51A8740079BBA5 /* XMTableViewAdapterDelegate.swift */; };
+		19673B491D51A89D0079BBA5 /* XMResponseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19673B481D51A89D0079BBA5 /* XMResponseProtocol.swift */; };
+		19673B4B1D51D3700079BBA5 /* XMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19673B4A1D51D3700079BBA5 /* XMTableViewCell.swift */; };
+		19673B4D1D51D9430079BBA5 /* RandomString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19673B4C1D51D9430079BBA5 /* RandomString.swift */; };
+		19673B4F1D51DA2C0079BBA5 /* XMTableViewSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19673B4E1D51DA2C0079BBA5 /* XMTableViewSectionModel.swift */; };
+		19673B511D51DB240079BBA5 /* XMTableViewRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19673B501D51DB240079BBA5 /* XMTableViewRowModel.swift */; };
 		1DCE541A2082BCF22E42948A /* Pods_XMTableViewAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63686183EA7950B11A561704 /* Pods_XMTableViewAdapter.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +33,13 @@
 		1919019A1D508E2E00466AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		191901A11D50925100466AD4 /* XMTableViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMTableViewAdapter.swift; sourceTree = "<group>"; };
 		191901A31D50958D00466AD4 /* XMTableViewAdapter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMTableViewAdapter-Bridging-Header.h"; sourceTree = "<group>"; };
-		191901A71D509A7600466AD4 /* XMTableViewAdapterDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMTableViewAdapterDelegate.swift; sourceTree = "<group>"; };
+		19673B431D519CB90079BBA5 /* XMResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMResponseModel.swift; sourceTree = "<group>"; };
+		19673B461D51A8740079BBA5 /* XMTableViewAdapterDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMTableViewAdapterDelegate.swift; sourceTree = "<group>"; };
+		19673B481D51A89D0079BBA5 /* XMResponseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMResponseProtocol.swift; sourceTree = "<group>"; };
+		19673B4A1D51D3700079BBA5 /* XMTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMTableViewCell.swift; sourceTree = "<group>"; };
+		19673B4C1D51D9430079BBA5 /* RandomString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomString.swift; sourceTree = "<group>"; };
+		19673B4E1D51DA2C0079BBA5 /* XMTableViewSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMTableViewSectionModel.swift; sourceTree = "<group>"; };
+		19673B501D51DB240079BBA5 /* XMTableViewRowModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMTableViewRowModel.swift; sourceTree = "<group>"; };
 		63686183EA7950B11A561704 /* Pods_XMTableViewAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMTableViewAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F6B8C9A8B5CA98ADD74B27 /* Pods-XMTableViewAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTableViewAdapter.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMTableViewAdapter/Pods-XMTableViewAdapter.release.xcconfig"; sourceTree = "<group>"; };
 		FA67C1598FE55F8ABF0F154E /* Pods-XMTableViewAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTableViewAdapter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMTableViewAdapter/Pods-XMTableViewAdapter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +81,7 @@
 				191901A01D50924900466AD4 /* XMTableViewAdapter */,
 				1919018E1D508E2E00466AD4 /* AppDelegate.swift */,
 				191901901D508E2E00466AD4 /* ViewController.swift */,
+				19673B4C1D51D9430079BBA5 /* RandomString.swift */,
 				191901921D508E2E00466AD4 /* Main.storyboard */,
 				191901951D508E2E00466AD4 /* Assets.xcassets */,
 				191901971D508E2E00466AD4 /* LaunchScreen.storyboard */,
@@ -82,9 +95,38 @@
 			isa = PBXGroup;
 			children = (
 				191901A11D50925100466AD4 /* XMTableViewAdapter.swift */,
-				191901A71D509A7600466AD4 /* XMTableViewAdapterDelegate.swift */,
+				19673B451D51A8550079BBA5 /* Protocol */,
+				19673B401D519C700079BBA5 /* Cell */,
+				19673B3F1D519C670079BBA5 /* Model */,
 			);
 			path = XMTableViewAdapter;
+			sourceTree = "<group>";
+		};
+		19673B3F1D519C670079BBA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19673B431D519CB90079BBA5 /* XMResponseModel.swift */,
+				19673B4E1D51DA2C0079BBA5 /* XMTableViewSectionModel.swift */,
+				19673B501D51DB240079BBA5 /* XMTableViewRowModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19673B401D519C700079BBA5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				19673B4A1D51D3700079BBA5 /* XMTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		19673B451D51A8550079BBA5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				19673B461D51A8740079BBA5 /* XMTableViewAdapterDelegate.swift */,
+				19673B481D51A89D0079BBA5 /* XMResponseProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		62217839EFF761FC5B8DA467 /* Frameworks */ = {
@@ -226,10 +268,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19673B4F1D51DA2C0079BBA5 /* XMTableViewSectionModel.swift in Sources */,
 				191901A21D50925100466AD4 /* XMTableViewAdapter.swift in Sources */,
+				19673B4B1D51D3700079BBA5 /* XMTableViewCell.swift in Sources */,
 				191901911D508E2E00466AD4 /* ViewController.swift in Sources */,
-				191901A81D509A7600466AD4 /* XMTableViewAdapterDelegate.swift in Sources */,
+				19673B441D519CB90079BBA5 /* XMResponseModel.swift in Sources */,
+				19673B511D51DB240079BBA5 /* XMTableViewRowModel.swift in Sources */,
+				19673B471D51A8740079BBA5 /* XMTableViewAdapterDelegate.swift in Sources */,
+				19673B4D1D51D9430079BBA5 /* RandomString.swift in Sources */,
 				1919018F1D508E2E00466AD4 /* AppDelegate.swift in Sources */,
+				19673B491D51A89D0079BBA5 /* XMResponseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
