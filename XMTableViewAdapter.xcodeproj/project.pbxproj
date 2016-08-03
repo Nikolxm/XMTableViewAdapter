@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1919018F1D508E2E00466AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919018E1D508E2E00466AD4 /* AppDelegate.swift */; };
+		191901911D508E2E00466AD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191901901D508E2E00466AD4 /* ViewController.swift */; };
+		191901941D508E2E00466AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191901921D508E2E00466AD4 /* Main.storyboard */; };
+		191901961D508E2E00466AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191901951D508E2E00466AD4 /* Assets.xcassets */; };
+		191901991D508E2E00466AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191901971D508E2E00466AD4 /* LaunchScreen.storyboard */; };
+		191901A21D50925100466AD4 /* XMTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191901A11D50925100466AD4 /* XMTableViewAdapter.swift */; };
+		191901A81D509A7600466AD4 /* XMTableViewAdapterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191901A71D509A7600466AD4 /* XMTableViewAdapterDelegate.swift */; };
+		1DCE541A2082BCF22E42948A /* Pods_XMTableViewAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63686183EA7950B11A561704 /* Pods_XMTableViewAdapter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1919018B1D508E2D00466AD4 /* XMTableViewAdapter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMTableViewAdapter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1919018E1D508E2E00466AD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		191901901D508E2E00466AD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		191901931D508E2E00466AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		191901951D508E2E00466AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		191901981D508E2E00466AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1919019A1D508E2E00466AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191901A11D50925100466AD4 /* XMTableViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMTableViewAdapter.swift; sourceTree = "<group>"; };
+		191901A31D50958D00466AD4 /* XMTableViewAdapter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMTableViewAdapter-Bridging-Header.h"; sourceTree = "<group>"; };
+		191901A71D509A7600466AD4 /* XMTableViewAdapterDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMTableViewAdapterDelegate.swift; sourceTree = "<group>"; };
+		63686183EA7950B11A561704 /* Pods_XMTableViewAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMTableViewAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F6B8C9A8B5CA98ADD74B27 /* Pods-XMTableViewAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTableViewAdapter.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMTableViewAdapter/Pods-XMTableViewAdapter.release.xcconfig"; sourceTree = "<group>"; };
+		FA67C1598FE55F8ABF0F154E /* Pods-XMTableViewAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTableViewAdapter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMTableViewAdapter/Pods-XMTableViewAdapter.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		191901881D508E2D00466AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCE541A2082BCF22E42948A /* Pods_XMTableViewAdapter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191901821D508E2D00466AD4 = {
+			isa = PBXGroup;
+			children = (
+				1919018D1D508E2E00466AD4 /* XMTableViewAdapter */,
+				1919018C1D508E2D00466AD4 /* Products */,
+				797F0BEA59AE16EAA83D7B31 /* Pods */,
+				62217839EFF761FC5B8DA467 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1919018C1D508E2D00466AD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1919018B1D508E2D00466AD4 /* XMTableViewAdapter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1919018D1D508E2E00466AD4 /* XMTableViewAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				191901A01D50924900466AD4 /* XMTableViewAdapter */,
+				1919018E1D508E2E00466AD4 /* AppDelegate.swift */,
+				191901901D508E2E00466AD4 /* ViewController.swift */,
+				191901921D508E2E00466AD4 /* Main.storyboard */,
+				191901951D508E2E00466AD4 /* Assets.xcassets */,
+				191901971D508E2E00466AD4 /* LaunchScreen.storyboard */,
+				1919019A1D508E2E00466AD4 /* Info.plist */,
+				191901A31D50958D00466AD4 /* XMTableViewAdapter-Bridging-Header.h */,
+			);
+			path = XMTableViewAdapter;
+			sourceTree = "<group>";
+		};
+		191901A01D50924900466AD4 /* XMTableViewAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				191901A11D50925100466AD4 /* XMTableViewAdapter.swift */,
+				191901A71D509A7600466AD4 /* XMTableViewAdapterDelegate.swift */,
+			);
+			path = XMTableViewAdapter;
+			sourceTree = "<group>";
+		};
+		62217839EFF761FC5B8DA467 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63686183EA7950B11A561704 /* Pods_XMTableViewAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		797F0BEA59AE16EAA83D7B31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA67C1598FE55F8ABF0F154E /* Pods-XMTableViewAdapter.debug.xcconfig */,
+				F7F6B8C9A8B5CA98ADD74B27 /* Pods-XMTableViewAdapter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1919018A1D508E2D00466AD4 /* XMTableViewAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1919019D1D508E2E00466AD4 /* Build configuration list for PBXNativeTarget "XMTableViewAdapter" */;
+			buildPhases = (
+				AE733D87101D8388C655A863 /* [CP] Check Pods Manifest.lock */,
+				191901871D508E2D00466AD4 /* Sources */,
+				191901881D508E2D00466AD4 /* Frameworks */,
+				191901891D508E2D00466AD4 /* Resources */,
+				6B1706D9042C28A9D93E629E /* [CP] Embed Pods Frameworks */,
+				37A44E6D2888EFCED56BED26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMTableViewAdapter;
+			productName = XMTableViewAdapter;
+			productReference = 1919018B1D508E2D00466AD4 /* XMTableViewAdapter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		191901831D508E2D00466AD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Xuemin;
+				TargetAttributes = {
+					1919018A1D508E2D00466AD4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 191901861D508E2D00466AD4 /* Build configuration list for PBXProject "XMTableViewAdapter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 191901821D508E2D00466AD4;
+			productRefGroup = 1919018C1D508E2D00466AD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1919018A1D508E2D00466AD4 /* XMTableViewAdapter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		191901891D508E2D00466AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191901991D508E2E00466AD4 /* LaunchScreen.storyboard in Resources */,
+				191901961D508E2E00466AD4 /* Assets.xcassets in Resources */,
+				191901941D508E2E00466AD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37A44E6D2888EFCED56BED26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMTableViewAdapter/Pods-XMTableViewAdapter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1706D9042C28A9D93E629E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMTableViewAdapter/Pods-XMTableViewAdapter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE733D87101D8388C655A863 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		191901871D508E2D00466AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191901A21D50925100466AD4 /* XMTableViewAdapter.swift in Sources */,
+				191901911D508E2E00466AD4 /* ViewController.swift in Sources */,
+				191901A81D509A7600466AD4 /* XMTableViewAdapterDelegate.swift in Sources */,
+				1919018F1D508E2E00466AD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		191901921D508E2E00466AD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				191901931D508E2E00466AD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		191901971D508E2E00466AD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				191901981D508E2E00466AD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1919019B1D508E2E00466AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1919019C1D508E2E00466AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1919019E1D508E2E00466AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA67C1598FE55F8ABF0F154E /* Pods-XMTableViewAdapter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = XMTableViewAdapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xuemin.XMTableViewAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XMTableViewAdapter/XMTableViewAdapter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1919019F1D508E2E00466AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F6B8C9A8B5CA98ADD74B27 /* Pods-XMTableViewAdapter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = XMTableViewAdapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xuemin.XMTableViewAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XMTableViewAdapter/XMTableViewAdapter-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		191901861D508E2D00466AD4 /* Build configuration list for PBXProject "XMTableViewAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1919019B1D508E2E00466AD4 /* Debug */,
+				1919019C1D508E2E00466AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1919019D1D508E2E00466AD4 /* Build configuration list for PBXNativeTarget "XMTableViewAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1919019E1D508E2E00466AD4 /* Debug */,
+				1919019F1D508E2E00466AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 191901831D508E2D00466AD4 /* Project object */;
+}
